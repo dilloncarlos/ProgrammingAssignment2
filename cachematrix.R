@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = numeric()) {
     }
     get <- function() x
     setinv <- function(inv) i <<- inv
-    getmean <- function() i
+    getinv <- function() i
     list(set = set, get = get,
          setinv = setinv,
          getinv = getinv)
